@@ -1,7 +1,7 @@
 
 
 
-1.Run AlighignPools.sh to trim reads and align the to the reference
+1.Run AlignPools.sh to trim reads and align the to the reference
 2.Run Samsort.sh to create a .sort file\
 3.Run picard_indel.sh to to soft-clip alignments beyond the end of reference sequences and to set the mapping quality to 0 for unmapped reads and to target and realign reads around indels.
 4. Run Samsort2.sh 
